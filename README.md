@@ -1,2 +1,6 @@
 # conky-tomato-bwstats
-Provides bandwidth stats from a tomato router for display inside a conky panel. 
+PHP script to provides bandwidth stats (monthly and daily usage) from a tomato router for display inside a conky panel. 
+
+Add to conky with the following:
+
+${execpi 30 /home/bpopp/router.php}
