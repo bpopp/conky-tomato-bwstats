@@ -2,7 +2,6 @@
 
 <?php
 include_once "common.php";
-include_once ( "dBug.php" );
 
 $page = "http://192.168.1.1/bwm-monthly.asp";
 $credentials = "root:password";
